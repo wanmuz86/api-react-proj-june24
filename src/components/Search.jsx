@@ -9,7 +9,7 @@ const Search = () => {
             </div>
             <div class="col-4">
                 <button type="submit" class="btn btn-success 
-                mb-3">Search Weather</button>
+                mb-3" style={{width:'100%'}}>Search Weather</button>
             </div>
         </div>
     )
