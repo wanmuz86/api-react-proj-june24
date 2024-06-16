@@ -2,7 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='bg-dark text-light p-3 text-center'>
+        <p>
+            All Rights Reserved &copy; Wan Muzaffar Sdn Bhd
+            </p>
+
+        </div>
   )
 }
 
