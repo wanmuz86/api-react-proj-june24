@@ -4,7 +4,7 @@ import Weather from './Weather'
 
 const Main = () => {
   return (
-    <div>
+    <div className='container py-3'>
         <Search/>
         <Weather/>
     </div>
