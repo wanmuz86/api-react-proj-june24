@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 
+ {/* Lifting up state (2) pass props in component declaration */}
 const Search = ({citySearch}) => {
 // 1) Create the state to store value of form
     const [cityForm, setCityForm] = useState('')
@@ -9,8 +10,10 @@ const Search = ({citySearch}) => {
         setCityForm(e.target.value)
     }
 
+     {/* Lifting up state (3) when the button is pressed pass the text inside props argument*/}
     const searchPressed = () => {
         citySearch(cityForm)
+        setCityForm('')
     }
 
     return (
