@@ -6,7 +6,6 @@ const Weather = ({weatherProp}) => {
         let date = new Date(dt * 1000)
         return date.toLocaleString()
     }
-
   return (
     <div className='card text-center p-3 bg-light'>
         <h2>{weatherProp?.name}</h2>
