@@ -22,7 +22,7 @@ const handleCitySearch = async (cityName) => {
     <div className='container py-3'>
         {/*  Lifting up state (1) Add props citySearch to handle search Button pressed from child */}
         <Search citySearch={handleCitySearch} />
-        <Weather/>
+        <Weather weatherProp={weather}/>
     </div>
   )
 }
